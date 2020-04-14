@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #1ed68f;
+  margin: 50px 50px 30px 100px;
+  font-family: Calibri;
+  font-size: 50px;
+}
+
+h2 {
+  margin: 30px 50px 10px 100px;
+  font-family: Calibri;
+  font-size 12px;
+}
+p,ol{
+  margin: 10px 50px 10px 100px;
+  font-family: Calibri;
+  font-size 12px;
+}
+
+a {
+  color: darkviolet;
+}
+
+b {
+  color: hotpink;
+}
+
+
+table, th, td {
+  margin: 15px 50px 10px 130px;
+  font-family: Calibri;
+  font-size 12px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+  background-color: powderblue;
+}
+
+.collapsible {
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 75%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 0px 10px 10px 130px;
+}
+
+.active, .collapsible:hover {
+  background-color: #f7a283;
+}
+
+.content {
+  padding: 0 10px;
+  max-height: 0;
+  width: 73.4%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  margin: 0px 0px 10px 130px;
+  text-align: left;
+}
+
+.collapsible:after {
+  content: '\02795';
+  font-family: Calibri;
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  font-family: Calibri;
+  content: "\2796";
+  color: white;
+}

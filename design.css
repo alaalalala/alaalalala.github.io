@@ -19,6 +19,10 @@ p,ol{
   font-family: Calibri;
   font-size 12px;
 }
+iframe {
+  margin: 10px 50px 10px 100px;
+}
+
 
 a {
   color: darkviolet;
